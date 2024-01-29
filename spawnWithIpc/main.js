@@ -6,4 +6,4 @@ childProcess.on("message", (message) => {
   console.log("[Main] received:", message);
 });
 
-childProcess.send("main-message");
+childProcess.send("main-message-ipc");

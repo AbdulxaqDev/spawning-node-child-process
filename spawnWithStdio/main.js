@@ -6,4 +6,4 @@ childProcess.stdout.on("data", (message) => {
   console.log(message.toString());
 });
 
-childProcess.stdin.write("[Main] message (Stdio)");
+childProcess.stdin.write("main-message-stdio");

@@ -3,5 +3,5 @@ process.on("message", (message) => {
   process.exit(0)
 });
 
-process.send("child-message");
+process.send("child-message-ipc");
 

@@ -3,4 +3,4 @@ process.stdin.on("data", (message) => {
   process.exit(0)
 });
 
-process.stdout.write("[Child] message (Stdio)");
+process.stdout.write("child-message-stdio");
